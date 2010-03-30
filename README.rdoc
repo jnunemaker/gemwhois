@@ -1,6 +1,24 @@
 = gemwhois
 
-Description goes here.
+Whois for gems, because gem names are like domains in the 90's
+
+== Install
+
+gem install gemwhois
+
+== Usage
+
+    $ gem whois httparty
+
+       gem name: httparty
+         owners: John Nunemaker, Sandro Turriate
+           info: Makes http fun! Also, makes consuming restful web services dead easy.
+        version: 0.5.2
+      downloads: 40714
+      
+    $ gem whois somenonexistantgem
+    
+      Gem not found. It will be mine. Oh yes. It will be mine. *sinister laugh*
 
 == Note on Patches/Pull Requests
  

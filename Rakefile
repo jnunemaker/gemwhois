@@ -5,8 +5,8 @@ require File.dirname(__FILE__) + '/lib/gemwhois/version'
 
 Jeweler::Tasks.new do |gem|
   gem.name        = 'gemwhois'
-  gem.summary     = 'whois for gems'
-  gem.description = 'whois for gems'
+  gem.summary     = "whois for gems, because gem names are like domains in the 90's"
+  gem.description = "whois for gems, because gem names are like domains in the 90's"
   gem.email       = 'nunemaker@gmail.com'
   gem.homepage    = 'http://github.com/jnunemaker/gemwhois'
   gem.authors     = ["John Nunemaker"]
