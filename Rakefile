@@ -13,6 +13,8 @@ Jeweler::Tasks.new do |gem|
   gem.version     = Gemwhois::Version
   gem.files       = FileList['lib/**/*.rb', 'bin/*', '[A-Z]*', 'test/**/*'].to_a
 
+  gem.required_rubygems_version = Gem::Requirement.new(">= 1.3.6") if gem.respond_to? :required_rubygems_version=
+
   gem.add_dependency 'crack'
   gem.add_dependency 'unindent'
 
