@@ -4,10 +4,12 @@ require 'shoulda'
 require 'fakeweb'
 require 'mocha'
 require 'helpers/output'
+require 'pathname'
 
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'gemwhois'
+dir = Pathname(__FILE__).join('..', '..', 'lib')
+
+require dir.join('gemwhois').expand_path
+require dir.join('rubygems', 'commands', 'whois_command').expand_path
 
 FakeWeb.allow_net_connect = false
 
