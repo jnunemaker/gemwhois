@@ -1,4 +1,6 @@
 require 'rubygems/gemcutter_utilities'
+require 'crack'
+require 'unindent'
 
 class Gem::Commands::WhoisCommand < Gem::Command
   include Gem::GemcutterUtilities

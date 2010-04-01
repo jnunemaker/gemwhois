@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'rake'
 require 'jeweler'
-require File.dirname(__FILE__) + '/lib/gemwhois/version'
+require File.dirname(__FILE__) + '/lib/gemwhois'
 
 Jeweler::Tasks.new do |gem|
   gem.name        = 'gemwhois'
