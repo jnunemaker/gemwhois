@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{gemwhois}
-  s.version = "0.2"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.3.6") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Nunemaker"]
@@ -21,8 +21,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "lib/gemwhois.rb",
-     "lib/gemwhois/version.rb",
-     "lib/rubygems/commands/whois.rb",
+     "lib/rubygems/commands/whois_command.rb",
      "lib/rubygems_plugin.rb",
      "test/fixtures/httparty.json",
      "test/fixtures/missing.json",
